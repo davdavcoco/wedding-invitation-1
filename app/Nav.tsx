@@ -1,6 +1,6 @@
 import Link from "next/link"
 import Image from "next/image";
-import logo from "../public/assets/logo/.png"
+import logo from "../public/assets/logo/logo.png"
 
 export default async function Nav() {
   return (
