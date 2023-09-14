@@ -56,7 +56,7 @@ export default function InfiniteImageCarousel() {
     <div>
       <div className="carousel-container overflow-hidden min-w-full bg-black">
         <div className="logo-container flex">
-          <ul className="justify-between flex p-4 gap-8 min-w-full">
+          <ul className="justify-between flex py-4 gap-8 min-w-full">
             {imageClients.map((imageClient, index, key) => (
               <li key={index} className="image-wrapper pr-8">
                 <Image
@@ -77,7 +77,7 @@ export default function InfiniteImageCarousel() {
           </ul>
         </div>
         <div className="logo-container flex">
-          <ul className="justify-between flex p-4 gap-8 min-w-full">
+          <ul className="justify-between flex py-4 gap-8 min-w-full">
             {imageClients2.map((imageClient, index, key) => (
               <li key={index} className="image-wrapper pr-8">
                 <Image
