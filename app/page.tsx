@@ -29,6 +29,17 @@ import ikan_dorang from "../public/assets/clients/Ikan_Dorang.png";
 import InfiniteImageCarousel from "./infiniteimagecarousel";
 
 export default function Home() {
+  const services = [
+    {
+      trigger: `Strategy`,
+      content: `Meaningful impact begins with refining ideas.`,
+    },
+    {
+      trigger: `Verbal Identity`,
+      content: `Your words reflect your character`,
+    },
+  ];
+
   return (
     <main className="">
       {/* section 6 main projects */}
@@ -304,7 +315,7 @@ export default function Home() {
           </div>
         </div> */}
       </section>
-      <section className="h-screen py-16">
+      <section className=" py-16">
         <div className="mx-4 md:mx-32 xl:mx-16 py-10">
           <h2 className="text-xl md:text-2xl font-DMMono_Regular">
             Through a deep understanding of our audience&apos;s makeup and
@@ -318,82 +329,67 @@ export default function Home() {
           </h1>
         </div>
 
-        <div className="mx-4 md:mx-32 xl:mx-16 py-10">
-          <Accordion
-            type="single"
-            collapsible
-            className="flex justify-around gap-8"
-          >
-            <AccordionItem value="item-1" className="w-full">
-              <AccordionTrigger>Services 1</AccordionTrigger>
-              <AccordionContent>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus
-                eveniet consequatur excepturi ad culpa cumque id vel. Quisquam
-                recusandae impedit nihil, officia voluptatem quaerat quos sed?
-                Facere repudiandae consectetur voluptate.
-              </AccordionContent>
-            </AccordionItem>
-            <AccordionItem value="item-2" className="w-full">
-              <AccordionTrigger>Services 2</AccordionTrigger>
-              <AccordionContent>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus
-                eveniet consequatur excepturi ad culpa cumque id vel. Quisquam
-                recusandae impedit nihil, officia voluptatem quaerat quos sed?
-                Facere repudiandae consectetur voluptate.
-              </AccordionContent>
-            </AccordionItem>
+        <div className="mx-4 md:mx-32 xl:mx-16 font-DMMono_Regular">
+          <Accordion type="single" collapsible>
+            <div className="flex justify-around gap-8">
+              <AccordionItem value="item-1" className="w-full">
+                <AccordionTrigger>Strategy</AccordionTrigger>
+                <AccordionContent>
+                  Meaningful impact begins with refining ideas.
+                </AccordionContent>
+              </AccordionItem>
+              <AccordionItem value="item-2" className="w-full">
+                <AccordionTrigger>Verbal Identity</AccordionTrigger>
+                <AccordionContent>
+                  Your words reflect your character
+                </AccordionContent>
+              </AccordionItem>
+            </div>
+            <div className="flex justify-around gap-8">
+              <AccordionItem value="item-3" className="w-full">
+                <AccordionTrigger>Visual Identity</AccordionTrigger>
+                <AccordionContent>
+                  Your visuals reflects your company’s Quality
+                </AccordionContent>
+              </AccordionItem>
+              <AccordionItem value="item-4" className="w-full">
+                <AccordionTrigger>Marketing Tools Design</AccordionTrigger>
+                <AccordionContent>
+                  Luck happens when preparation meets opportunity
+                </AccordionContent>
+              </AccordionItem>
+            </div>
+            <div className="flex justify-around gap-8">
+              <AccordionItem value="item-5" className="w-full">
+                <AccordionTrigger>
+                  Digital Design & Development
+                </AccordionTrigger>
+                <AccordionContent>
+                  Catch global-sized market opportunities.
+                </AccordionContent>
+              </AccordionItem>
+              <AccordionItem value="item-6" className="w-full">
+                <AccordionTrigger>Activation</AccordionTrigger>
+                <AccordionContent>
+                  Achieve goals with a well-planned content strategy.
+                </AccordionContent>
+              </AccordionItem>
+            </div>
+            <div className="flex justify-around gap-8">
+              <AccordionItem value="item-7" className="w-full">
+                <AccordionTrigger>Workshop & Class</AccordionTrigger>
+                <AccordionContent>
+                  Investing in people and knowledge is the ultimate investment.
+                </AccordionContent>
+              </AccordionItem>
+              <AccordionItem value="item-8" className="w-full">
+                <AccordionTrigger>Supervision</AccordionTrigger>
+                <AccordionContent>
+                  Your Brand Visuals discussing partner
+                </AccordionContent>
+              </AccordionItem>
+            </div>
           </Accordion>
-          <Accordion
-            type="single"
-            collapsible
-            className="flex justify-around gap-8 py-8"
-          >
-            <AccordionItem value="item-1" className="w-full">
-              <AccordionTrigger>Services 3</AccordionTrigger>
-              <AccordionContent>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus
-                eveniet consequatur excepturi ad culpa cumque id vel. Quisquam
-                recusandae impedit nihil, officia voluptatem quaerat quos sed?
-                Facere repudiandae consectetur voluptate.
-              </AccordionContent>
-            </AccordionItem>
-            <AccordionItem value="item-2" className="w-full">
-              <AccordionTrigger>Services 4</AccordionTrigger>
-              <AccordionContent>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus
-                eveniet consequatur excepturi ad culpa cumque id vel. Quisquam
-                recusandae impedit nihil, officia voluptatem quaerat quos sed?
-                Facere repudiandae consectetur voluptate.
-              </AccordionContent>
-            </AccordionItem>
-          </Accordion>
-          <Accordion
-            type="single"
-            collapsible
-            className="flex justify-around gap-8"
-          >
-            <AccordionItem value="item-1" className="w-full">
-              <AccordionTrigger>Services 5</AccordionTrigger>
-              <AccordionContent>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus
-                eveniet consequatur excepturi ad culpa cumque id vel. Quisquam
-                recusandae impedit nihil, officia voluptatem quaerat quos sed?
-                Facere repudiandae consectetur voluptate.
-              </AccordionContent>
-            </AccordionItem>
-            <AccordionItem value="item-2" className="w-full">
-              <AccordionTrigger>Services 6</AccordionTrigger>
-              <AccordionContent>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus
-                eveniet consequatur excepturi ad culpa cumque id vel. Quisquam
-                recusandae impedit nihil, officia voluptatem quaerat quos sed?
-                Facere repudiandae consectetur voluptate.
-              </AccordionContent>
-            </AccordionItem>
-          </Accordion>
-          <ul className="">
-            <li></li>
-          </ul>
         </div>
       </section>
       <section></section>
