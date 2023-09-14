@@ -1,3 +1,4 @@
+"use client";
 import Image from "next/image";
 import {
   Accordion,
@@ -24,6 +25,8 @@ import hafas from "../public/assets/clients/HaFas.png";
 import huang from "../public/assets/clients/Huang.png";
 import ibcsd from "../public/assets/clients/IBCSD.png";
 import ikan_dorang from "../public/assets/clients/Ikan_Dorang.png";
+
+import InfiniteImageCarousel from "./infiniteimagecarousel";
 
 export default function Home() {
   return (
@@ -86,7 +89,10 @@ export default function Home() {
         </div>
       </section>
       <section className="pt-32">
-        <div className="carousel-container overflow-hidden inline-flex min-w-full ">
+        <section>
+          <InfiniteImageCarousel />
+        </section>
+        {/* <div className="carousel-container overflow-hidden inline-flex min-w-full ">
           <div className="logo-container flex">
             <ul className="justify-between relative flex p-4 gap-4 min-w-full bg-black">
               <li>
@@ -186,7 +192,7 @@ export default function Home() {
               willChange: "transform",
             }}
           ></div>
-        </div>
+        </div> */}
       </section>
       <section>
         {/* <div className="w-full bg-black">
