@@ -1,10 +1,10 @@
-import Link from "next/link"
+import Link from "next/link";
 import Image from "next/image";
-import logo from "../public/assets/logo/logo.png"
+import logo from "../public/assets/logo/logo.png";
 
 export default async function Nav() {
   return (
-    <nav className="flex justify-between items-center pr-2 font-DMMono_Medium mx-4 md:mx-48 xl:mx-16">
+    <nav className="flex justify-between items-center font-DMMono_Medium mx-4 md:mx-32 xl:mx-16">
       <Link href={"/"}>
         <div className="w-36 h-36 self-center">
           <Image
@@ -22,5 +22,5 @@ export default async function Nav() {
         <li>Contact</li>
       </ul>
     </nav>
-  )
+  );
 }
