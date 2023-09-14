@@ -16,7 +16,6 @@ export default async function Nav() {
         </div>
       </Link>
       <ul className="flex justify-between items-center gap-8">
-        <li>Home</li>
         <li>About</li>
         <li>Services</li>
         <li>Contact</li>
