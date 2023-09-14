@@ -19,18 +19,6 @@ import creabiz from '../public/assets/projects/creabiz/mockup_stock_apps.jpg'
 import creabiz2 from '../public/assets/clients/Creabiz.png'
 
 export default function Home() {
-  const projectsImages = [
-    {
-      image: {toekoe},
-      name: "toekoe",
-      instagramUrl: "instagram url here",
-    },
-    {
-      image: {creabiz},
-      name: "creabiz",
-      instagramUrl: "instagram url here",
-    },
-  ];
   return (
     <main className="">
       {/* section 6 main projects */}
