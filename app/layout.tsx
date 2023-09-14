@@ -1,8 +1,7 @@
 import './globals.css'
 import type { Metadata } from 'next'
-import { Inter } from 'next/font/google'
-
-const inter = Inter({ subsets: ['latin'] })
+import Nav from './Nav'
+import Footer from './footer'
 
 export const metadata: Metadata = {
   title: 'Create Next App',
@@ -16,7 +15,16 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      {/*
+        <head /> will contain the components returned by the nearest parent
+        head.jsx. Find out more at https://beta.nextjs.org/docs/api-reference/file-conventions/head
+      */}
+      <head />
+      <body>
+      <Nav />
+      {children}
+      <Footer />
+      </body>
     </html>
   )
 }
