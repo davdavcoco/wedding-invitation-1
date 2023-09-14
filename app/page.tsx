@@ -13,7 +13,7 @@ import {
   CardHeader,
   CardTitle,
 } from "@/components/ui/card"
-import toekoe from '../public/assets/projects/toekoe/mockup_stock_apps.png'
+import toekoe from '../public/assets/projects/toekoe/mockup_stock_apps.jpg'
 import creabiz from '../public/assets/projects/creabiz/mockup_stock_apps.jpg'
 
 import creabiz2 from '../public/assets/clients/Creabiz.png'
