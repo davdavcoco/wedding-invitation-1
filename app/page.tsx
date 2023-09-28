@@ -41,358 +41,217 @@ export default function Home() {
   ];
 
   return (
-    <main className="">
+    <main className=" bg-black text-white">
       {/* section 6 main projects */}
-      <section className="xl:h-screen font-DMMono_Regular">
-        <div className="mx-4 md:mx-32 xl:mx-16">
-          <div className="flex flex-col pr-20 pl-20 md:p-10 md:pl-10 gap-8 lg:flex-row lg:flex-wrap">
-            <div className="flex-1">
-              <Image
-                src={toekoe}
-                className="rounded-sm object-cover h-full w-full"
-                alt="toekoe portfolio"
-              />
-              <p>toekoe</p>
-            </div>
-            <div className="flex-1">
-              <Image
-                src={creabiz}
-                className="rounded-sm object-cover h-full w-full"
-                alt="creabiz portfolio"
-              />
-              <p>Creabiz</p>
-            </div>
-            <div className="flex-1">
-              <Image
-                src={toekoe}
-                className="rounded-sm object-cover h-full w-full"
-                alt="toekoe portfolio"
-              />
-              <p>toekoe</p>
-            </div>
+      <section className="font-DMMono_Regular">
+        <div className="px-8 md:px-32 xl:px-24 pt-10 bg-black">
+          <h1 className="text-5xl py-2 font-medium md:text-5xl font-DMMono_Regular">
+            Where iconic brand
+          </h1>
+          <h1 className="text-5xl py-2 font-medium md:text-5xl font-DMMono_Regular">
+            designed authenticly.
+          </h1>
+        </div>
+        <div className="pb-3 bg-gradient-to-r from-orange-950 to-orange-700  border-r-black"></div>
+      </section>
+      <section className="font-DMMono_Regular pb-1 border-b-orange-950 border-b-4">
+        <div className="grid grid-cols-12 gap-8 px-8 md:px-32 xl:px-24 py-10">
+          {/* <div className="md:col-span-6"></div> */}
+          <div className="md:col-start-7 col-span-3 md:col-span-3">
+            <h5 className="text-sm font-medium md:text-sm font-DMMono_Regular">
+              Fanrong a brand and design office for driving change through
+              problem solving
+            </h5>
           </div>
-          <div className="flex flex-col pr-20 pl-20 md:p-10 md:pl-10 gap-8 py-8 lg:flex-row lg:flex-wrap">
-            <div className="flex-1">
-              <Image
-                src={creabiz}
-                className="rounded-sm object-cover h-full w-full"
-                alt="creabiz portfolio"
-              />
-              <p>Creabiz</p>
-            </div>
-            <div className="flex-1">
-              <Image
-                src={toekoe}
-                className="rounded-sm object-cover h-full w-full"
-                alt="toekoe portfolio"
-              />
-              <p>toekoe</p>
-            </div>
-            <div className="flex-1">
-              <Image
-                src={creabiz}
-                className="rounded-sm object-cover h-full w-full"
-                alt="creabiz portfolio"
-              />
-              <p>Creabiz</p>
-            </div>
+          <div className="md:col-start-10 col-span-3 md:col-span-3">
+            <h5 className="text-sm font-medium md:text-sm font-DMMono_Regular">
+              We help business convey their narativeness with clarity,
+              enchancing with their visual appeal, and captivating their
+              audience
+            </h5>
           </div>
         </div>
       </section>
-      <section className="pt-32">
-        <section>
-          <InfiniteImageCarousel />
-        </section>
-        {/* <div className="carousel-container overflow-hidden inline-flex min-w-full ">
-          <div className="logo-container flex">
-            <ul className="justify-between relative flex p-4 gap-4 min-w-full bg-black">
-              <li>
-                <Image
-                  src={creabiz2}
-                  className="rounded-sm object-contain h-32 w-32"
-                  alt="toekoe portfolio"
-                />
-              </li>
-              <li>
-                <Image
-                  src={gbc}
-                  className="rounded-sm object-contain h-32 w-32"
-                  alt="toekoe portfolio"
-                />
-              </li>
-              <li>
-                <Image
-                  src={hafas}
-                  className="rounded-sm object-contain h-32 w-32"
-                  alt="toekoe portfolio"
-                />
-              </li>
-              <li>
-                <Image
-                  src={huang}
-                  className="rounded-sm object-contain h-32 w-32"
-                  alt="toekoe portfolio"
-                />
-              </li>
-              <li>
-                <Image
-                  src={ibcsd}
-                  className="rounded-sm object-contain h-32 w-32"
-                  alt="toekoe portfolio"
-                />
-              </li>
-              <li>
-                <Image
-                  src={ikan_dorang}
-                  className="rounded-sm object-contain h-32 w-32"
-                  alt="toekoe portfolio"
-                />
-              </li>
-            </ul>
-            <ul className="justify-between flex p-4 min-w-full bg-black gap-4">
-              <li>
-                <Image
-                  src={creabiz2}
-                  className="rounded-sm object-contain h-32 w-32"
-                  alt="toekoe portfolio"
-                />
-              </li>
-              <li>
-                <Image
-                  src={gbc}
-                  className="rounded-sm object-contain h-32 w-32"
-                  alt="toekoe portfolio"
-                />
-              </li>
-              <li>
-                <Image
-                  src={hafas}
-                  className="rounded-sm object-contain h-32 w-32"
-                  alt="toekoe portfolio"
-                />
-              </li>
-              <li>
-                <Image
-                  src={huang}
-                  className="rounded-sm object-contain h-32 w-32"
-                  alt="toekoe portfolio"
-                />
-              </li>
-              <li>
-                <Image
-                  src={ibcsd}
-                  className="rounded-sm object-contain h-32 w-32"
-                  alt="toekoe portfolio"
-                />
-              </li>
-              <li>
-                <Image
-                  src={ikan_dorang}
-                  className="rounded-sm object-contain h-32 w-32"
-                  alt="toekoe portfolio"
-                />
-              </li>
-            </ul>
+      <section className="font-DMMono_Regular pb-1 border-b-orange-950 border-b-4">
+        <div className="grid grid-cols-12 gap-8 px-8 md:px-32 xl:px-24 py-10">
+          <div className="col-span-12">
+            <h3 className="text-2xl font-medium">Our Client</h3>
           </div>
-          <div
-            className="logo-container _2 "
-            style={{
-              transform:
-                "translate3d(-95.8091%, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)",
-              transformStyle: "preserve-3d",
-              willChange: "transform",
-            }}
-          ></div>
-        </div> */}
-      </section>
-      <section>
-        {/* <div className="w-full bg-black">
-          <div className="w-full inline-flex flex-nowrap">
-            <ul className="flex justify-center md:justify-start gap-8 [&_li]:mx-8 [&_img]:max-w-none animate-infinite-scroll">
-              <li className="h-16">
-                <Image
-                  src={creabiz2}
-                  className="h-full w-full rounded-lg object-cover"
-                  alt="toekoe portfolio"
-                />
-              </li>
-              <li className="h-16">
-                <Image
-                  src={creabiz2}
-                  className="h-full w-full rounded-lg object-cover"
-                  alt="toekoe portfolio"
-                />
-              </li>
-              <li className="h-16">
-                <Image
-                  src={creabiz2}
-                  className="h-full w-full rounded-lg object-cover"
-                  alt="toekoe portfolio"
-                />
-              </li>
-              <li className="h-16">
-                <Image
-                  src={creabiz2}
-                  className="h-full w-full rounded-lg object-cover"
-                  alt="toekoe portfolio"
-                />
-              </li>
-              <li className="h-16">
-                <Image
-                  src={creabiz2}
-                  className="h-full w-full rounded-lg object-cover"
-                  alt="toekoe portfolio"
-                />
-              </li>
-              <li className="h-16">
-                <Image
-                  src={creabiz2}
-                  className="h-full w-full rounded-lg object-cover"
-                  alt="toekoe portfolio"
-                />
-              </li>
-              <li className="h-16">
-                <Image
-                  src={creabiz2}
-                  className="h-full w-full rounded-lg object-cover"
-                  alt="toekoe portfolio"
-                />
-              </li>
-              <li className="h-16">
-                <Image
-                  src={creabiz2}
-                  className="h-full w-full rounded-lg object-cover"
-                  alt="toekoe portfolio"
-                />
-              </li>
-            </ul>
+          <div className="col-span-12">
+            <InfiniteImageCarousel />
           </div>
-          <div className="w-full inline-flex flex-nowrap">
-            <ul className="flex items-center justify-center md:justify-start [&_li]:mx-8 [&_img]:max-w-none animate-infinite-scroll">
-              <li className="h-16">
-                <Image
-                  src={creabiz2}
-                  className="h-full w-full rounded-lg object-cover"
-                  alt="toekoe portfolio"
-                />
-              </li>
-              <li className="h-16">
-                <Image
-                  src={creabiz2}
-                  className="h-full w-full rounded-lg object-cover"
-                  alt="toekoe portfolio"
-                />
-              </li>
-              <li className="h-16">
-                <Image
-                  src={creabiz2}
-                  className="h-full w-full rounded-lg object-cover"
-                  alt="toekoe portfolio"
-                />
-              </li>
-              <li className="h-16">
-                <Image
-                  src={creabiz2}
-                  className="h-full w-full rounded-lg object-cover"
-                  alt="toekoe portfolio"
-                />
-              </li>
-              <li className="h-16">
-                <Image
-                  src={creabiz2}
-                  className="h-full w-full rounded-lg object-cover"
-                  alt="toekoe portfolio"
-                />
-              </li>
-              <li className="h-16">
-                <Image
-                  src={creabiz2}
-                  className="h-full w-full rounded-lg object-cover"
-                  alt="toekoe portfolio"
-                />
-              </li>
-            </ul>
-          </div>
-        </div> */}
-      </section>
-      <section className=" py-16">
-        <div className="mx-4 md:mx-32 xl:mx-16 py-10">
-          <h2 className="text-xl md:text-2xl font-DMMono_Regular">
-            Through a deep understanding of our audience&apos;s makeup and
-            motivations,
-          </h2>
-          <h1 className="text-4xl py-2 font-medium md:text-5xl font-DMMono_Regular">
-            we design Digital Experiences
-          </h1>
-          <h1 className="text-4xl py-2 font-medium md:text-5xl font-DMMono_Regular">
-            that connect with people.
-          </h1>
         </div>
+      </section>
+      <section className=" font-DMMono_Regular pb-1 border-b-orange-950 border-b-4">
+        <div className="grid grid-cols-12 gap-4 md:px-32 xl:px-24 py-10 pb-20">
+          <div className="col-span-12">
+            <h3 className="text-2xl font-medium">Featured Projects</h3>
+          </div>
 
-        <div className="mx-4 md:mx-32 xl:mx-16 font-DMMono_Regular">
-          <Accordion type="single" collapsible>
-            <div className="flex justify-around gap-8">
-              <AccordionItem value="item-1" className="w-full">
-                <AccordionTrigger>Strategy</AccordionTrigger>
-                <AccordionContent>
-                  Meaningful impact begins with refining ideas.
-                </AccordionContent>
-              </AccordionItem>
-              <AccordionItem value="item-2" className="w-full">
-                <AccordionTrigger>Verbal Identity</AccordionTrigger>
-                <AccordionContent>
-                  Your words reflect your character
-                </AccordionContent>
-              </AccordionItem>
-            </div>
-            <div className="flex justify-around gap-8">
-              <AccordionItem value="item-3" className="w-full">
-                <AccordionTrigger>Visual Identity</AccordionTrigger>
-                <AccordionContent>
-                  Your visuals reflects your company’s Quality
-                </AccordionContent>
-              </AccordionItem>
-              <AccordionItem value="item-4" className="w-full">
-                <AccordionTrigger>Marketing Tools Design</AccordionTrigger>
-                <AccordionContent>
-                  Luck happens when preparation meets opportunity
-                </AccordionContent>
-              </AccordionItem>
-            </div>
-            <div className="flex justify-around gap-8">
-              <AccordionItem value="item-5" className="w-full">
-                <AccordionTrigger>
-                  Digital Design & Development
-                </AccordionTrigger>
-                <AccordionContent>
-                  Catch global-sized market opportunities.
-                </AccordionContent>
-              </AccordionItem>
-              <AccordionItem value="item-6" className="w-full">
-                <AccordionTrigger>Activation</AccordionTrigger>
-                <AccordionContent>
-                  Achieve goals with a well-planned content strategy.
-                </AccordionContent>
-              </AccordionItem>
-            </div>
-            <div className="flex justify-around gap-8">
-              <AccordionItem value="item-7" className="w-full">
-                <AccordionTrigger>Workshop & Class</AccordionTrigger>
-                <AccordionContent>
-                  Investing in people and knowledge is the ultimate investment.
-                </AccordionContent>
-              </AccordionItem>
-              <AccordionItem value="item-8" className="w-full">
-                <AccordionTrigger>Supervision</AccordionTrigger>
-                <AccordionContent>
-                  Your Brand Visuals discussing partner
-                </AccordionContent>
-              </AccordionItem>
-            </div>
-          </Accordion>
+          <div className="col-span-4">
+            <Image
+              src={toekoe}
+              className="rounded-sm object-cover h-full w-full"
+              alt="toekoe portfolio"
+            />
+            <h3 className="text-xl font-medium">Toekoe</h3>
+          </div>
+          <div className="col-span-4">
+            <Image
+              src={creabiz}
+              className="rounded-sm object-cover h-full w-full"
+              alt="creabiz portfolio"
+            />
+            <h3 className="text-xl font-medium">Creabiz</h3>
+          </div>
+          <div className="col-span-4">
+            <Image
+              src={toekoe}
+              className="rounded-sm object-cover h-full w-full"
+              alt="toekoe portfolio"
+            />
+            <h3 className="text-xl font-medium">Toekoe</h3>
+          </div>
+        </div>
+        <div className="grid grid-cols-12 gap-4 md:px-32 xl:px-24 pb-20 bg-black">
+          <div className="col-span-4">
+            <Image
+              src={creabiz}
+              className="rounded-sm object-cover h-full w-full"
+              alt="creabiz portfolio"
+            />
+            <h3 className="text-xl font-medium">Creabiz</h3>
+          </div>
+          <div className="col-span-4">
+            <Image
+              src={toekoe}
+              className="rounded-sm object-cover h-full w-full"
+              alt="toekoe portfolio"
+            />
+            <h3 className="text-xl font-medium">Toekoe</h3>
+          </div>
+          <div className="col-span-4">
+            <Image
+              src={creabiz}
+              className="rounded-sm object-cover h-full w-full"
+              alt="creabiz portfolio"
+            />
+            <h3 className="text-xl font-medium">Creabiz</h3>
+          </div>
         </div>
       </section>
-      <section></section>
+      <section className="font-DMMono_Regular pb-1 border-b-orange-950 border-b-4">
+        <div className="grid grid-cols-12 gap-8 px-8 md:px-32 xl:px-24 py-10">
+          <div className="col-span-12">
+            <h3 className="text-2xl font-medium">Our Expertise</h3>
+          </div>
+          <div className="col-span-1"></div>
+          <div className="col-span-10">
+            <Accordion type="single" collapsible>
+              <div className="flex justify-around gap-8 pb-6">
+                <AccordionItem
+                  value="item-1"
+                  className="w-full border-orange-950"
+                >
+                  <AccordionTrigger>Strategy</AccordionTrigger>
+                  <AccordionContent>
+                    Meaningful impact begins with refining ideas.
+                  </AccordionContent>
+                </AccordionItem>
+                <AccordionItem
+                  value="item-2"
+                  className="w-full border-orange-950"
+                >
+                  <AccordionTrigger>Verbal Identity</AccordionTrigger>
+                  <AccordionContent>
+                    Your words reflect your character
+                  </AccordionContent>
+                </AccordionItem>
+              </div>
+              <div className="flex justify-around gap-8 pb-6">
+                <AccordionItem
+                  value="item-3"
+                  className="w-full border-orange-950"
+                >
+                  <AccordionTrigger>Visual Identity</AccordionTrigger>
+                  <AccordionContent>
+                    Your visuals reflects your company’s Quality
+                  </AccordionContent>
+                </AccordionItem>
+                <AccordionItem
+                  value="item-4"
+                  className="w-full border-orange-950"
+                >
+                  <AccordionTrigger>Marketing Tools Design</AccordionTrigger>
+                  <AccordionContent>
+                    Luck happens when preparation meets opportunity
+                  </AccordionContent>
+                </AccordionItem>
+              </div>
+              <div className="flex justify-around gap-8 pb-6">
+                <AccordionItem
+                  value="item-5"
+                  className="w-full border-orange-950"
+                >
+                  <AccordionTrigger>
+                    Digital Design & Development
+                  </AccordionTrigger>
+                  <AccordionContent>
+                    Catch global-sized market opportunities.
+                  </AccordionContent>
+                </AccordionItem>
+                <AccordionItem
+                  value="item-6"
+                  className="w-full border-orange-950"
+                >
+                  <AccordionTrigger>Activation</AccordionTrigger>
+                  <AccordionContent>
+                    Achieve goals with a well-planned content strategy.
+                  </AccordionContent>
+                </AccordionItem>
+              </div>
+              <div className="flex justify-around gap-8 pb-6">
+                <AccordionItem
+                  value="item-7"
+                  className="w-full border-orange-950"
+                >
+                  <AccordionTrigger>Workshop & Class</AccordionTrigger>
+                  <AccordionContent>
+                    Investing in people and knowledge is the ultimate
+                    investment.
+                  </AccordionContent>
+                </AccordionItem>
+                <AccordionItem
+                  value="item-8"
+                  className="w-full border-orange-950"
+                >
+                  <AccordionTrigger>Supervision</AccordionTrigger>
+                  <AccordionContent>
+                    Your Brand Visuals discussing partner
+                  </AccordionContent>
+                </AccordionItem>
+              </div>
+            </Accordion>
+          </div>
+          <div className="col-span-1"></div>
+        </div>
+      </section>
+      <section className="font-DMMono_Regular">
+        <div className="grid grid-cols-12 gap-8 px-8 md:px-32 xl:px-24 py-10">
+          <div className="col-span-12 flex justify-between">
+            <div className="col-span-10">
+              <h3 className="text-2xl font-medium">
+                We&rsquo;re here to collaborate, schedule a meeting now
+              </h3>
+            </div>
+            <div className="col-span-2">
+              <button className="bg-white text-black rounded-full text-2xl font-bold py-2 px-8">
+                Whatsapp
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
   );
 }

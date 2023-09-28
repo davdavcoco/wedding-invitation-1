@@ -24,13 +24,13 @@ export default function InfiniteImageCarousel() {
     // Add more image URLs as needed
   ];
   const imageClients2 = [
-    { url: '/assets/clients/Inca.png', alts: `inca portfolio` },
-    { url: '/assets/clients/Kanigraha.png', alts: `kanigraha portfolio` },
-    { url: '/assets/clients/kemenprekraf.png', alts: `kemenprekraf portfolio` },
-    { url: '/assets/clients/Makadata.png', alts: `makadata portfolio` },
-    { url: '/assets/clients/Mindful_P.png', alts: `mindful p portfolio` },
-    { url: '/assets/clients/Tanaga.png', alts: `tanaga portfolio` },
-    { url: '/assets/clients/TJ_Sports.png', alts: `tj sports portfolio` },
+    // { url: '/assets/clients/Inca.png', alts: `inca portfolio` },
+    // { url: '/assets/clients/Kanigraha.png', alts: `kanigraha portfolio` },
+    // { url: '/assets/clients/kemenprekraf.png', alts: `kemenprekraf portfolio` },
+    // { url: '/assets/clients/Makadata.png', alts: `makadata portfolio` },
+    // { url: '/assets/clients/Mindful_P.png', alts: `mindful p portfolio` },
+    // { url: '/assets/clients/Tanaga.png', alts: `tanaga portfolio` },
+    // { url: '/assets/clients/TJ_Sports.png', alts: `tj sports portfolio` },
     // Add more image URLs as needed
   ];
 
@@ -56,7 +56,7 @@ export default function InfiniteImageCarousel() {
     <div>
       <div className="carousel-container overflow-hidden min-w-full bg-black">
         <div className="logo-container flex">
-          <ul className="justify-between flex py-4 gap-8 min-w-full">
+          <ul className="justify-between flex gap-8 min-w-full">
             {imageClients.map((imageClient, index, key) => (
               <li key={index} className="image-wrapper pr-8">
                 <Image
@@ -77,7 +77,7 @@ export default function InfiniteImageCarousel() {
           </ul>
         </div>
         <div className="logo-container flex">
-          <ul className="justify-between flex py-4 gap-8 min-w-full">
+          <ul className="justify-between flex gap-8 min-w-full">
             {imageClients2.map((imageClient, index, key) => (
               <li key={index} className="image-wrapper pr-8">
                 <Image

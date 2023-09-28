@@ -125,3 +125,8 @@
   font-family: "DMSerifDisplay-Regular";
   src: url("../public/assets/fonts/DMSerifDisplay-Regular.ttf");
 }
+
+body {
+  min-width: 100%;
+  background-color: black
+}
