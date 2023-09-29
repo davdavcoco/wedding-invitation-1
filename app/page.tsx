@@ -44,11 +44,11 @@ export default function Home() {
     <main className=" bg-black text-white">
       {/* section 6 main projects */}
       <section className="font-DMSerifDisplay_Regular">
-        <div className="px-8 md:px-32 xl:px-24 pt-10 bg-black">
-          <h1 className="text-5xl py-2 font-medium md:text-5xl font-DMSerifDisplay_Regular">
+        <div className="px-8 md:px-32 xl:px-24 py-10 bg-black">
+          <h1 className="text-7xl py-2 font-medium md:text-7xl font-DMSerifDisplay_Regular">
             Where iconic brand
           </h1>
-          <h1 className="text-5xl py-2 font-medium md:text-5xl font-DMSerifDisplay_Regular">
+          <h1 className="text-7xl py-2 font-medium md:text-7xl font-DMSerifDisplay_Regular">
             designed authenticly.
           </h1>
         </div>
@@ -58,13 +58,13 @@ export default function Home() {
         <div className="grid grid-cols-12 gap-8 px-8 md:px-32 xl:px-24 py-10">
           {/* <div className="md:col-span-6"></div> */}
           <div className="md:col-start-7 col-span-3 md:col-span-3">
-            <h5 className="text-sm font-medium md:text-sm font-DMSerifDisplay_Regular">
+            <h5 className="text-xl font-medium md:text-xl font-DMSerifDisplay_Regular">
               Fanrong a brand and design office for driving change through
               problem solving
             </h5>
           </div>
           <div className="md:col-start-10 col-span-3 md:col-span-3">
-            <h5 className="text-sm font-medium md:text-sm font-DMSerifDisplay_Regular">
+            <h5 className="text-xl font-medium md:text-xl font-DMSerifDisplay_Regular">
               We help business convey their narativeness with clarity,
               enchancing with their visual appeal, and captivating their
               audience
@@ -153,7 +153,9 @@ export default function Home() {
                   value="item-1"
                   className="w-full border-orange-950"
                 >
-                  <AccordionTrigger>Strategy</AccordionTrigger>
+                  <AccordionTrigger>
+                    <span className="text-2xl">Strategy</span>
+                  </AccordionTrigger>
                   <AccordionContent>
                     Meaningful impact begins with refining ideas.
                   </AccordionContent>
@@ -162,7 +164,9 @@ export default function Home() {
                   value="item-2"
                   className="w-full border-orange-950"
                 >
-                  <AccordionTrigger>Verbal Identity</AccordionTrigger>
+                  <AccordionTrigger>
+                    <span className="text-2xl">Verbal Identity</span>
+                  </AccordionTrigger>
                   <AccordionContent>
                     Your words reflect your character
                   </AccordionContent>
@@ -173,7 +177,9 @@ export default function Home() {
                   value="item-3"
                   className="w-full border-orange-950"
                 >
-                  <AccordionTrigger>Visual Identity</AccordionTrigger>
+                  <AccordionTrigger>
+                    <span className="text-2xl">Visual Identity</span>
+                  </AccordionTrigger>
                   <AccordionContent>
                     Your visuals reflects your company’s Quality
                   </AccordionContent>
@@ -182,7 +188,9 @@ export default function Home() {
                   value="item-4"
                   className="w-full border-orange-950"
                 >
-                  <AccordionTrigger>Marketing Tools Design</AccordionTrigger>
+                  <AccordionTrigger>
+                    <span className="text-2xl">Marketing Tools Design</span>
+                  </AccordionTrigger>
                   <AccordionContent>
                     Luck happens when preparation meets opportunity
                   </AccordionContent>
@@ -194,7 +202,9 @@ export default function Home() {
                   className="w-full border-orange-950"
                 >
                   <AccordionTrigger>
-                    Digital Design & Development
+                    <span className="text-2xl">
+                      Digital Design & Development
+                    </span>
                   </AccordionTrigger>
                   <AccordionContent>
                     Catch global-sized market opportunities.
@@ -204,7 +214,9 @@ export default function Home() {
                   value="item-6"
                   className="w-full border-orange-950"
                 >
-                  <AccordionTrigger>Activation</AccordionTrigger>
+                  <AccordionTrigger>
+                    <span className="text-2xl">Activation</span>
+                  </AccordionTrigger>
                   <AccordionContent>
                     Achieve goals with a well-planned content strategy.
                   </AccordionContent>
@@ -215,7 +227,9 @@ export default function Home() {
                   value="item-7"
                   className="w-full border-orange-950"
                 >
-                  <AccordionTrigger>Workshop & Class</AccordionTrigger>
+                  <AccordionTrigger>
+                    <span className="text-2xl">Workshop & Class</span>
+                  </AccordionTrigger>
                   <AccordionContent>
                     Investing in people and knowledge is the ultimate
                     investment.
@@ -225,7 +239,9 @@ export default function Home() {
                   value="item-8"
                   className="w-full border-orange-950"
                 >
-                  <AccordionTrigger>Supervision</AccordionTrigger>
+                  <AccordionTrigger>
+                    <span className="text-2xl">Supervision</span>
+                  </AccordionTrigger>
                   <AccordionContent>
                     Your Brand Visuals discussing partner
                   </AccordionContent>
@@ -240,12 +256,14 @@ export default function Home() {
         <div className="grid grid-cols-12 gap-8 px-8 md:px-32 xl:px-24 py-10">
           <div className="col-span-12 flex justify-between">
             <div className="col-span-10">
-              <h3 className="text-2xl font-medium">
-                We&rsquo;re here to collaborate, schedule a meeting now
+              <h3 className="text-4xl font-medium">
+                <span className="inline-block align-middle">
+                  We&rsquo;re here to collaborate, schedule a meeting now
+                </span>
               </h3>
             </div>
             <div className="col-span-2">
-              <button className="bg-white text-black rounded-full text-2xl font-bold py-2 px-8">
+              <button className="bg-white text-black rounded-full text-3xl font-bold py-2 px-8">
                 Whatsapp
               </button>
             </div>
