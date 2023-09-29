@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default async function Footer() {
     return (
-        <section className="font-DMMono_Regular">
+        <section className="font-DMSerifDisplay_Regular">
             <footer className="grid grid-cols-12 gap-8 px-8 md:px-32 xl:px-24 py-10 bg-black ">
                 <div className="col-span-6 md:col-span-4"></div>
                 <div className="col-span-3 md:col-span-4">

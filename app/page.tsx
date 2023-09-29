@@ -43,28 +43,28 @@ export default function Home() {
   return (
     <main className=" bg-black text-white">
       {/* section 6 main projects */}
-      <section className="font-DMMono_Regular">
+      <section className="font-DMSerifDisplay_Regular">
         <div className="px-8 md:px-32 xl:px-24 pt-10 bg-black">
-          <h1 className="text-5xl py-2 font-medium md:text-5xl font-DMMono_Regular">
+          <h1 className="text-5xl py-2 font-medium md:text-5xl font-DMSerifDisplay_Regular">
             Where iconic brand
           </h1>
-          <h1 className="text-5xl py-2 font-medium md:text-5xl font-DMMono_Regular">
+          <h1 className="text-5xl py-2 font-medium md:text-5xl font-DMSerifDisplay_Regular">
             designed authenticly.
           </h1>
         </div>
         <div className="pb-3 bg-gradient-to-r from-orange-950 to-orange-700  border-r-black"></div>
       </section>
-      <section className="font-DMMono_Regular pb-1 border-b-orange-950 border-b-4">
+      <section className="font-DMSerifDisplay_Regular pb-1 border-b-orange-950 border-b-4">
         <div className="grid grid-cols-12 gap-8 px-8 md:px-32 xl:px-24 py-10">
           {/* <div className="md:col-span-6"></div> */}
           <div className="md:col-start-7 col-span-3 md:col-span-3">
-            <h5 className="text-sm font-medium md:text-sm font-DMMono_Regular">
+            <h5 className="text-sm font-medium md:text-sm font-DMSerifDisplay_Regular">
               Fanrong a brand and design office for driving change through
               problem solving
             </h5>
           </div>
           <div className="md:col-start-10 col-span-3 md:col-span-3">
-            <h5 className="text-sm font-medium md:text-sm font-DMMono_Regular">
+            <h5 className="text-sm font-medium md:text-sm font-DMSerifDisplay_Regular">
               We help business convey their narativeness with clarity,
               enchancing with their visual appeal, and captivating their
               audience
@@ -72,7 +72,7 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section className="font-DMMono_Regular pb-1 border-b-orange-950 border-b-4">
+      <section className="font-DMSerifDisplay_Regular pb-1 border-b-orange-950 border-b-4">
         <div className="grid grid-cols-12 gap-8 px-8 md:px-32 xl:px-24 py-10">
           <div className="col-span-12">
             <h3 className="text-2xl font-medium">Our Client</h3>
@@ -82,7 +82,7 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section className=" font-DMMono_Regular pb-1 border-b-orange-950 border-b-4">
+      <section className=" font-DMSerifDisplay_Regular pb-1 border-b-orange-950 border-b-4">
         <div className="grid grid-cols-12 gap-4 md:px-32 xl:px-24 py-10 pb-20">
           <div className="col-span-12">
             <h3 className="text-2xl font-medium">Featured Projects</h3>
@@ -140,7 +140,7 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section className="font-DMMono_Regular pb-1 border-b-orange-950 border-b-4">
+      <section className="font-DMSerifDisplay_Regular pb-1 border-b-orange-950 border-b-4">
         <div className="grid grid-cols-12 gap-8 px-8 md:px-32 xl:px-24 py-10">
           <div className="col-span-12">
             <h3 className="text-2xl font-medium">Our Expertise</h3>
@@ -236,7 +236,7 @@ export default function Home() {
           <div className="col-span-1"></div>
         </div>
       </section>
-      <section className="font-DMMono_Regular">
+      <section className="font-DMSerifDisplay_Regular">
         <div className="grid grid-cols-12 gap-8 px-8 md:px-32 xl:px-24 py-10">
           <div className="col-span-12 flex justify-between">
             <div className="col-span-10">
