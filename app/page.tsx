@@ -82,6 +82,7 @@ export default function Home() {
           </div>
         </div>
       </section>
+      <section className="grid grid-cols-12 gap-8 px-8 md:px-32 xl:px-24 py-10"></section>
       <section className=" font-DMSerifDisplay_Regular pb-1 border-b-orange-950 border-b-4">
         <div className="grid grid-cols-12 gap-4 md:px-32 xl:px-24 py-10 pb-20">
           <div className="col-span-12">
