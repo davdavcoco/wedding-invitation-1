@@ -41,7 +41,7 @@ export default function InfiniteImageCarousel() {
     infinite: true,
     slidesToShow: 7,
     slidesToScroll: 1,
-    // autoplay: true,
+    autoplay: true,
     lazyload: "ondemand",
     speed: 2000,
     autoplaySpeed: 2000,
