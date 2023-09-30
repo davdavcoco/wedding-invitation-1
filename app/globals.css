@@ -127,6 +127,30 @@
 }
 
 body {
+  margin: 0px;
+  height: 100%;
   min-width: 100%;
   background-color: black
+}
+
+.imageSlider {
+
+  width: 100%;
+  margin: 0 auto;
+
+  .slick-slide {
+    height: auto !important;
+  }
+
+  .slick-track {
+    display: flex !important;
+    flex-direction: row !important;
+    flex-wrap: nowrap !important;
+    /* align-items: stretch !important; */
+    align-items: center !imporant;
+  }
+
+  .slick-slide {
+    height: auto;
+  }
 }
