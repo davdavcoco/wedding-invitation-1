@@ -10,7 +10,9 @@ export default async function Footer() {
                         Contact:
                         <br></br>
                         ID: @Fanrong_Creative_Service
+                        <br></br>
                         email: fanrongstudio@gmail.com
+                        <br></br>
                         No: +62 817-4344-464
                     </p>
                 </div>
