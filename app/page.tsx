@@ -84,7 +84,7 @@ export default function Home() {
       </section>
       <section className="grid grid-cols-12 gap-8 px-8 md:px-32 xl:px-24 py-0 lg:py-10 md:py-10"></section>
       <section className=" font-DMSerifDisplay_Regular pb-1 border-b-orange-950 border-b-4">
-        <div className="grid grid-cols-12 xl:gap-4 md:gap-4 px-8 md:px-32 xl:px-24 py-10 pb-0 lg:pb-20 md:pb-20">
+        <div className="grid grid-cols-12 xl:gap-4 md:gap-4 md:px-32 xl:px-24 pb-0 lg:pb-20 md:pb-20">
           <div className="col-span-12">
             <h3 className="text-2xl font-medium">Featured Projects</h3>
           </div>
@@ -95,7 +95,12 @@ export default function Home() {
               className="rounded-sm object-cover h-full w-full"
               alt="toekoe portfolio"
             />
-            <h3 className="text-xl font-medium">Toekoe</h3>
+            <p className="flex justify-between">
+              <h3 className="text-xl font-medium">Toekoe</h3>
+              <a className="text-xl font-medium" href="/">
+                +
+              </a>
+            </p>
           </div>
           <div className="col-span-12 xl:col-span-4 md:col-span-4 pb-8 lg:pb-0 md:pb-0">
             <Image
@@ -103,7 +108,12 @@ export default function Home() {
               className="rounded-sm object-cover h-full w-full"
               alt="creabiz portfolio"
             />
-            <h3 className="text-xl font-medium">Creabiz</h3>
+            <p className="flex justify-between">
+              <h3 className="text-xl font-medium">Creabiz</h3>
+              <a className="text-xl font-medium" href="/">
+                +
+              </a>
+            </p>
           </div>
           <div className="col-span-12 xl:col-span-4 md:col-span-4 pb-8 lg:pb-0 md:pb-0">
             <Image
@@ -111,7 +121,12 @@ export default function Home() {
               className="rounded-sm object-cover h-full w-full"
               alt="toekoe portfolio"
             />
-            <h3 className="text-xl font-medium">Toekoe</h3>
+            <p className="flex justify-between">
+              <h3 className="text-xl font-medium">Toekoe</h3>
+              <a className="text-xl font-medium" href="/">
+                +
+              </a>
+            </p>
           </div>
         </div>
         <div className="grid grid-cols-12 xl:gap-4 md:gap-4 px-8 md:px-32 xl:px-24 pb-20 bg-black">
@@ -121,7 +136,12 @@ export default function Home() {
               className="rounded-sm object-cover h-full w-full"
               alt="creabiz portfolio"
             />
-            <h3 className="text-xl font-medium">Creabiz</h3>
+            <p className="flex justify-between">
+              <h3 className="text-xl font-medium">Creabiz</h3>
+              <a className="text-xl font-medium" href="/">
+                +
+              </a>
+            </p>
           </div>
           <div className="col-span-12 xl:col-span-4 md:col-span-4 pb-8 lg:pb-0 md:pb-0">
             <Image
@@ -129,7 +149,12 @@ export default function Home() {
               className="rounded-sm object-cover h-full w-full"
               alt="toekoe portfolio"
             />
-            <h3 className="text-xl font-medium">Toekoe</h3>
+            <p className="flex justify-between">
+              <h3 className="text-xl font-medium">Toekoe</h3>
+              <a className="text-xl font-medium" href="/">
+                +
+              </a>
+            </p>
           </div>
           <div className="col-span-12 xl:col-span-4 md:col-span-4 pb-8 lg:pb-0 md:pb-0">
             <Image
@@ -137,7 +162,12 @@ export default function Home() {
               className="rounded-sm object-cover h-full w-full"
               alt="creabiz portfolio"
             />
-            <h3 className="text-xl font-medium">Creabiz</h3>
+            <p className="flex justify-between">
+              <h3 className="text-xl font-medium">Creabiz</h3>
+              <a className="text-xl font-medium" href="/">
+                +
+              </a>
+            </p>
           </div>
         </div>
       </section>

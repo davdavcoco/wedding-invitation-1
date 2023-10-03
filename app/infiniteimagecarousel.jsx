@@ -67,8 +67,8 @@ export default function InfiniteImageCarousel() {
       {
         breakpoint: 480,
         settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1
+          slidesToShow: 4,
+          slidesToScroll: 4
         }
       }
     ]
@@ -78,13 +78,13 @@ export default function InfiniteImageCarousel() {
     <div className="bg-black">
       <Slider {...settings} className='imageSlider'>
         {imageClients.map((imageClient, index, key) => (
-          <section className='' key={index}>
+          <section key={index} className="inline-flex justify-center">
             <Image
               src={imageClient.url}
               loading="lazy"
               width="100"
               height="100"
-              className="rounded-sm object-contain h-32 w-32"
+              className="object-contain object-center"
               alt={imageClient.alts}
             />
 

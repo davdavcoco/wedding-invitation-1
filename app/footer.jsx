@@ -9,7 +9,7 @@ export default async function Footer() {
                     <p className="text-sm text-medium text-white">
                         Contact:
                         <br></br>
-                        ID: @Fanrong_Creative_Service
+                        IG: @Fanrong_Creative_Service
                         <br></br>
                         email: fanrongstudio@gmail.com
                         <br></br>
