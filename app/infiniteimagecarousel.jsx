@@ -81,9 +81,9 @@ export default function InfiniteImageCarousel() {
           <section className='' key={index}>
             <Image
               src={imageClient.url}
+              loading="lazy"
               width="100"
               height="100"
-              loading="lazy"
               className="rounded-sm object-contain h-32 w-32"
               alt={imageClient.alts}
             />

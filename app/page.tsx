@@ -45,10 +45,10 @@ export default function Home() {
       {/* section 6 main projects */}
       <section className="font-DMSerifDisplay_Regular">
         <div className="px-8 md:px-32 xl:px-24 py-10 bg-black">
-          <h1 className="text-7xl py-2 font-medium md:text-7xl font-DMSerifDisplay_Regular">
+          <h1 className="xl:text-7xl py-2 font-medium md:text-7xl text-5xl">
             Where iconic brand
           </h1>
-          <h1 className="text-7xl py-2 font-medium md:text-7xl font-DMSerifDisplay_Regular">
+          <h1 className="xl:text-7xl py-2 font-medium md:text-7xl text-5xl">
             designed authenticly.
           </h1>
         </div>
@@ -57,13 +57,13 @@ export default function Home() {
       <section className="font-DMSerifDisplay_Regular pb-1 border-b-orange-950 border-b-4">
         <div className="grid grid-cols-12 gap-8 px-8 md:px-32 xl:px-24 py-10">
           {/* <div className="md:col-span-6"></div> */}
-          <div className="md:col-start-7 col-span-3 md:col-span-3">
+          <div className="md:col-start-7 xl:col-start-7 xl:col-span-3 md:col-span-3 col-span-12">
             <h5 className="text-xl font-medium md:text-xl font-DMSerifDisplay_Regular">
               Fanrong a brand and design office for driving change through
               problem solving
             </h5>
           </div>
-          <div className="md:col-start-10 col-span-3 md:col-span-3">
+          <div className="md:col-start-10 xl:col-start-10 xl:col-span-3 md:col-span-3 col-span-12">
             <h5 className="text-xl font-medium md:text-xl font-DMSerifDisplay_Regular">
               We help business convey their narativeness with clarity,
               enchancing with their visual appeal, and captivating their
@@ -82,14 +82,14 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section className="grid grid-cols-12 gap-8 px-8 md:px-32 xl:px-24 py-10"></section>
+      <section className="grid grid-cols-12 gap-8 px-8 md:px-32 xl:px-24 py-0 lg:py-10 md:py-10"></section>
       <section className=" font-DMSerifDisplay_Regular pb-1 border-b-orange-950 border-b-4">
-        <div className="grid grid-cols-12 gap-4 md:px-32 xl:px-24 py-10 pb-20">
+        <div className="grid grid-cols-12 xl:gap-4 md:gap-4 px-8 md:px-32 xl:px-24 py-10 pb-0 lg:pb-20 md:pb-20">
           <div className="col-span-12">
             <h3 className="text-2xl font-medium">Featured Projects</h3>
           </div>
 
-          <div className="col-span-4">
+          <div className="col-span-12 xl:col-span-4 md:col-span-4 pb-8 lg:pb-0 md:pb-0">
             <Image
               src={toekoe}
               className="rounded-sm object-cover h-full w-full"
@@ -97,7 +97,7 @@ export default function Home() {
             />
             <h3 className="text-xl font-medium">Toekoe</h3>
           </div>
-          <div className="col-span-4">
+          <div className="col-span-12 xl:col-span-4 md:col-span-4 pb-8 lg:pb-0 md:pb-0">
             <Image
               src={creabiz}
               className="rounded-sm object-cover h-full w-full"
@@ -105,7 +105,7 @@ export default function Home() {
             />
             <h3 className="text-xl font-medium">Creabiz</h3>
           </div>
-          <div className="col-span-4">
+          <div className="col-span-12 xl:col-span-4 md:col-span-4 pb-8 lg:pb-0 md:pb-0">
             <Image
               src={toekoe}
               className="rounded-sm object-cover h-full w-full"
@@ -114,8 +114,8 @@ export default function Home() {
             <h3 className="text-xl font-medium">Toekoe</h3>
           </div>
         </div>
-        <div className="grid grid-cols-12 gap-4 md:px-32 xl:px-24 pb-20 bg-black">
-          <div className="col-span-4">
+        <div className="grid grid-cols-12 xl:gap-4 md:gap-4 px-8 md:px-32 xl:px-24 pb-20 bg-black">
+          <div className="col-span-12 xl:col-span-4 md:col-span-4 pb-8 lg:pb-0 md:pb-0">
             <Image
               src={creabiz}
               className="rounded-sm object-cover h-full w-full"
@@ -123,7 +123,7 @@ export default function Home() {
             />
             <h3 className="text-xl font-medium">Creabiz</h3>
           </div>
-          <div className="col-span-4">
+          <div className="col-span-12 xl:col-span-4 md:col-span-4 pb-8 lg:pb-0 md:pb-0">
             <Image
               src={toekoe}
               className="rounded-sm object-cover h-full w-full"
@@ -131,7 +131,7 @@ export default function Home() {
             />
             <h3 className="text-xl font-medium">Toekoe</h3>
           </div>
-          <div className="col-span-4">
+          <div className="col-span-12 xl:col-span-4 md:col-span-4 pb-8 lg:pb-0 md:pb-0">
             <Image
               src={creabiz}
               className="rounded-sm object-cover h-full w-full"
@@ -254,16 +254,16 @@ export default function Home() {
         </div>
       </section>
       <section className="font-DMSerifDisplay_Regular">
-        <div className="grid grid-cols-12 gap-8 px-8 md:px-32 xl:px-24 py-10">
-          <div className="col-span-12 flex justify-between">
+        <div className="grid grid-cols-12 xl:gap-8 px-8 md:px-32 xl:px-24 py-10">
+          <div className="col-span-12 xl:flex xl:justify-between md:flex md:justify-between sm:text-center">
             <div className="col-span-10">
-              <h3 className="text-4xl font-medium">
-                <span className="inline-block align-middle">
+              <h3 className="text-4xl font-medium ">
+                <p className="xl:inline-block align-middle text-center lg:text-left md:text-left sm:pb-8">
                   We&rsquo;re here to collaborate, schedule a meeting now
-                </span>
+                </p>
               </h3>
             </div>
-            <div className="col-span-2">
+            <div className="col-span-2 text-center">
               <button className="bg-white text-black rounded-full text-3xl font-bold py-2 px-8">
                 Whatsapp
               </button>
