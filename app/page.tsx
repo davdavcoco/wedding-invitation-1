@@ -165,12 +165,12 @@ export default function Home() {
           </div>
           <div className="col-span-12 xl:col-span-4 md:col-span-4 pb-8 lg:pb-0 md:pb-0">
             <Image
-              src={creabiz}
+              src={hooray}
               className="rounded-sm object-cover h-full w-full"
-              alt="creabiz portfolio"
+              alt="hooray portfolio"
             />
             <div className="flex justify-between">
-              <h3 className="text-xl font-medium">Creabiz</h3>
+              <h3 className="text-xl font-medium">Hooray</h3>
               <a className="text-xl font-medium" href="/">
                 +
               </a>
