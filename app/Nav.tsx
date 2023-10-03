@@ -4,7 +4,7 @@ import logo from "../public/assets/logo/logo.png";
 
 export default async function Nav() {
   return (
-    <nav className=" font-DMMono_Medium bg-black text-white p-8 md:px-32 xl:px-24">
+    <nav className=" font-DMMono_Medium bg-black text-white p-8 md:px-24 xl:px-16">
       <section className="DESKTOP-MENU hidden lg:flex lg:justify-between lg:items-center">
         <Link href={"/"}>
           <div className="inline-flex justify-center">
