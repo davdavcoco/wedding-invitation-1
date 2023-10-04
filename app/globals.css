@@ -142,6 +142,8 @@ body {
   .slick-slide {
     height: auto !important;
     margin-right: 1rem;
+    align-self: center;
+
   }
 
   .slick-track {
