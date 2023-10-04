@@ -5,7 +5,7 @@ export default async function Footer() {
     return (
         <section className="font-DMSerifDisplay_Regular">
             <footer className="grid grid-cols-12 gap-8 px-8 md:px-24 xl:px-16 py-10">
-                <div className="md:col-start-7 col-span-12 xl:col-span-3 md:col-span-3">
+                <div className="md:col-start-7 xl:col-start-7 col-span-12 xl:col-span-3 md:col-span-3">
                     <div className="text-sm text-medium text-white w-full">
                         Contact:
                         <br></br>

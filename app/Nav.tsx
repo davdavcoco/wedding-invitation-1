@@ -33,7 +33,7 @@ export default function Nav() {
             </li>
           </ul>
         </section>
-        <section className="MOBILE-MENU flex justify-between lg:hidden">
+        <section className="MOBILE-MENU flex justify-between md:hidden lg:hidden">
           <div className="inline-flex justify-center">
             <Image
               src={logo}

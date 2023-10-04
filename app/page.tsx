@@ -19,6 +19,9 @@ import gsap from "gsap";
 import whastappbuttongreensmall from "../public/assets/icons/ChatOnWhatsAppButton/WhatsAppButtonGreenSmall.png";
 import toekoe from "../public/assets/projects/toekoe/mockup_stock_apps.jpg";
 import creabiz from "../public/assets/projects/creabiz/mockup_stock_apps.jpg";
+import gerbang_naga from "../public/assets/projects/gerbang_naga/mockup_stock_apps.jpg";
+import tais_timor from "../public/assets/projects/tais_timor/mockup_stock_apps.jpg";
+import grand_batang_city from "../public/assets/projects/grand_batang_city/mockup_stock_apps.jpg";
 import hooray from "../public/assets/projects/hooray/mockup_stock_apps.jpg";
 
 import creabiz2 from "../public/assets/clients/Creabiz.png";
@@ -124,12 +127,12 @@ export default function Home() {
           </div>
           <div className="col-span-12 xl:col-span-4 md:col-span-4 pb-8 lg:pb-0 md:pb-0">
             <Image
-              src={toekoe}
+              src={gerbang_naga}
               className="rounded-sm object-cover h-full w-full"
-              alt="toekoe portfolio"
+              alt="gerbang naga portfolio"
             />
             <div className="flex justify-between">
-              <h3 className="text-xl font-medium">Toekoe</h3>
+              <h3 className="text-xl font-medium">Gerbang Naga</h3>
               <a className="text-xl font-medium" href="/">
                 +
               </a>
@@ -139,12 +142,12 @@ export default function Home() {
         <div className="grid grid-cols-12 xl:gap-4 md:gap-4 pb-0 xl:pb-20 md:pb-20 bg-black">
           <div className="col-span-12 xl:col-span-4 md:col-span-4 pb-8 lg:pb-0 md:pb-0">
             <Image
-              src={creabiz}
+              src={tais_timor}
               className="rounded-sm object-cover h-full w-full"
-              alt="creabiz portfolio"
+              alt="tais timor portfolio"
             />
             <div className="flex justify-between">
-              <h3 className="text-xl font-medium">Creabiz</h3>
+              <h3 className="text-xl font-medium">Tais Timor</h3>
               <a className="text-xl font-medium" href="/">
                 +
               </a>
@@ -152,12 +155,12 @@ export default function Home() {
           </div>
           <div className="col-span-12 xl:col-span-4 md:col-span-4 pb-8 lg:pb-0 md:pb-0">
             <Image
-              src={toekoe}
+              src={grand_batang_city}
               className="rounded-sm object-cover h-full w-full"
-              alt="toekoe portfolio"
+              alt="grand batang city portfolio"
             />
             <div className="flex justify-between">
-              <h3 className="text-xl font-medium">Toekoe</h3>
+              <h3 className="text-xl font-medium">Grand Batang City</h3>
               <a className="text-xl font-medium" href="/">
                 +
               </a>
