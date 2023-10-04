@@ -56,7 +56,7 @@ export default function Home() {
           <h1 className="xl:text-7xl py-2 font-medium md:text-7xl sm:text-4xl text-5xl hidden md:block xl:block">
             designed authenticly.
           </h1>
-          <h1 className="xl:text-7xl py-2 font-medium md:text-7xl text-4xl xl:hidden md:hidden sm:block">
+          <h1 className="xl:text-7xl py-2 font-medium md:text-7xl text-3xl xl:hidden md:hidden sm:block">
             Where iconic brand designed authenticly.
           </h1>
         </div>
