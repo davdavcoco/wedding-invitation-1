@@ -48,7 +48,7 @@ export default function Home() {
   return (
     <main className=" bg-black text-white">
       {/* section 6 main projects */}
-      <section className="font-DMSerifDisplay_Regular px-8 md:px-24 xl:px-16">
+      <section className="DMSans-VariableFont px-8 md:px-24 xl:px-16">
         <div className=" py-10 bg-black block xl:inline-block md:inline-block">
           <h1 className="xl:text-7xl py-2 font-medium md:text-7xl sm:text-4xl text-5xl hidden md:block xl:block">
             Where iconic brand
@@ -62,17 +62,17 @@ export default function Home() {
         </div>
       </section>
       <div className="pb-3 bg-gradient-to-r from-orange-950 to-orange-700  border-r-black"></div>
-      <section className="font-DMSerifDisplay_Regular px-8 md:px-24 xl:px-16">
+      <section className="DMSans-VariableFont px-8 md:px-24 xl:px-16">
         <div className="grid grid-cols-12 gap-8  py-10">
           {/* <div className="md:col-span-6"></div> */}
           <div className="md:col-start-7 xl:col-start-7 xl:col-span-3 md:col-span-3 col-span-12">
-            <h5 className="text-xl font-medium md:text-xl font-DMSerifDisplay_Regular">
+            <h5 className="text-xl font-medium md:text-xl DMSans-VariableFont">
               Fanrong a brand and design office for driving change through
               problem solving
             </h5>
           </div>
           <div className="md:col-start-10 xl:col-start-10 xl:col-span-3 md:col-span-3 col-span-12">
-            <h5 className="text-xl font-medium md:text-xl font-DMSerifDisplay_Regular">
+            <h5 className="text-xl font-medium md:text-xl DMSans-VariableFont">
               We help business convey their narativeness with clarity,
               enchancing with their visual appeal, and captivating their
               audience
@@ -81,7 +81,7 @@ export default function Home() {
         </div>
       </section>
       <div className="pb-1 bg-gradient-to-r from-orange-950 to-orange-700  border-r-black"></div>
-      <section className="font-DMSerifDisplay_Regular px-8 md:px-24 xl:px-16">
+      <section className="DMSans-VariableFont px-8 md:px-24 xl:px-16">
         <div className="grid grid-cols-12 gap-8  py-10">
           <div className="col-span-12">
             <h3 className="text-2xl font-medium">Our Client</h3>
@@ -93,7 +93,7 @@ export default function Home() {
       </section>
       <div className="pb-1 bg-gradient-to-r from-orange-950 to-orange-700  border-r-black"></div>
       {/* <section className="grid grid-cols-12 gap-8 py-0 lg:py-10 md:py-10"></section> */}
-      <section className="font-DMSerifDisplay_Regular py-10 px-8 md:px-24 xl:px-16">
+      <section className="DMSans-VariableFont py-10 px-8 md:px-24 xl:px-16">
         <div className="grid grid-cols-12 xl:gap-4 md:gap-4 md:px-0 xl:px-0 pb-0 lg:pb-20 md:pb-20">
           <div className="col-span-12">
             <h3 className="text-2xl font-medium">Featured Projects</h3>
@@ -182,7 +182,7 @@ export default function Home() {
         </div>
       </section>
       <div className="pb-1 bg-gradient-to-r from-orange-950 to-orange-700  border-r-black"></div>
-      <section className="font-DMSerifDisplay_Regular px-8 md:px-24 xl:px-16">
+      <section className="DMSans-VariableFont px-8 md:px-24 xl:px-16">
         <div className="grid grid-cols-12 gap-0 xl:gap-8 md:gap-8 py-10">
           <div className="col-span-12">
             <h3 className="text-2xl font-medium">Our Expertise</h3>
@@ -293,7 +293,7 @@ export default function Home() {
         </div>
       </section>
       <div className="pb-1 bg-gradient-to-r from-orange-950 to-orange-700  border-r-black"></div>
-      <section className="font-DMSerifDisplay_Regular px-8 md:px-24 xl:px-16">
+      <section className="DMSans-VariableFont px-8 md:px-24 xl:px-16">
         <div className="grid grid-cols-12 xl:gap-8  py-10">
           <div className="col-span-12 xl:flex xl:justify-between md:flex md:justify-between sm:text-center">
             <div className="col-span-10">

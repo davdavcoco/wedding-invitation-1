@@ -9,7 +9,7 @@ export default function Nav() {
 
   return (
     <div className="top-0 sticky">
-      <nav className="font-DMSerifDisplay_Regular sticky bg-black text-white p-8 md:px-24 xl:px-16">
+      <nav className="DMSans-VariableFont sticky bg-black text-white p-8 md:px-24 xl:px-16">
         <section className="DESKTOP-MENU hidden lg:flex lg:justify-between lg:items-center md:flex md:justify-between md:items-center">
           <Link href={"/"}>
             <div className="inline-flex justify-center">
