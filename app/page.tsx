@@ -15,8 +15,6 @@ import {
   CardTitle,
 } from "@/components/ui/card";
 import gsap from "gsap";
-// import { useEffect, useRef } from "react";
-import whastappbuttongreensmall from "../public/assets/icons/ChatOnWhatsAppButton/WhatsAppButtonGreenSmall.png";
 import toekoe from "../public/assets/projects/toekoe/mockup_stock_apps.jpg";
 import creabiz from "../public/assets/projects/creabiz/mockup_stock_apps.jpg";
 import gerbang_naga from "../public/assets/projects/gerbang_naga/mockup_stock_apps.jpg";
@@ -24,27 +22,9 @@ import tais_timor from "../public/assets/projects/tais_timor/mockup_stock_apps.j
 import grand_batang_city from "../public/assets/projects/grand_batang_city/mockup_stock_apps.jpg";
 import hooray from "../public/assets/projects/hooray/mockup_stock_apps.jpg";
 
-import creabiz2 from "../public/assets/clients/Creabiz.png";
-import gbc from "../public/assets/clients/GBC.png";
-import hafas from "../public/assets/clients/HaFas.png";
-import huang from "../public/assets/clients/Huang.png";
-import ibcsd from "../public/assets/clients/IBCSD.png";
-import ikan_dorang from "../public/assets/clients/Ikan_Dorang.png";
-
 import InfiniteImageCarousel from "./infiniteimagecarousel";
 
 export default function Home() {
-  const services = [
-    {
-      trigger: `Strategy`,
-      content: `Meaningful impact begins with refining ideas.`,
-    },
-    {
-      trigger: `Verbal Identity`,
-      content: `Your words reflect your character`,
-    },
-  ];
-
   return (
     <main className=" bg-black text-white">
       {/* section 6 main projects */}
@@ -298,9 +278,9 @@ export default function Home() {
           <div className="col-span-12 xl:flex xl:justify-between md:flex md:justify-between sm:text-center">
             <div className="col-span-10">
               <h3 className="text-4xl font-medium ">
-                <p className="xl:inline-block align-middle text-center lg:text-left md:text-left sm:pb-8">
+                <div className="xl:inline-block align-middle text-center lg:text-left md:text-left sm:pb-8">
                   We&rsquo;re here to collaborate, schedule a meeting now
-                </p>
+                </div>
               </h3>
             </div>
             <div className="col-span-2 text-center">

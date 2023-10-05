@@ -22,15 +22,15 @@ export default function Nav() {
             </div>
           </Link>
           <ul className="flex justify-between items-center gap-8">
-            <li>
-              <a href="/">About</a>
-            </li>
-            <li>
-              <a href="/">Services</a>
-            </li>
-            <li>
-              <a href="/">Contact</a>
-            </li>
+            <Link href={"/about"}>
+              <li>About</li>
+            </Link>
+            <Link href={"/services"}>
+              <li>Services</li>
+            </Link>
+            <Link href={"/contact"}>
+              <li>Contact</li>
+            </Link>
           </ul>
         </section>
         <section className="MOBILE-MENU flex justify-between md:hidden lg:hidden">
