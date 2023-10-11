@@ -22,7 +22,7 @@ import tais_timor from "../public/assets/projects/tais_timor/mockup_stock_apps_w
 import grand_batang_city from "../public/assets/projects/grand_batang_city/mockup_stock_apps_web.jpg";
 import hooray from "../public/assets/projects/hooray/mockup_stock_apps_web.jpg";
 
-import InfiniteImageCarousel from "./infiniteimagecarousel";
+// import InfiniteImageCarousel from "./infiniteimagecarousel";
 
 export default function Home() {
   return (
@@ -66,9 +66,7 @@ export default function Home() {
           <div className="col-span-12">
             <h3 className="text-2xl font-medium">Our Client</h3>
           </div>
-          <div className="col-span-12">
-            <InfiniteImageCarousel />
-          </div>
+          <div className="col-span-12">{/* <InfiniteImageCarousel /> */}</div>
         </div>
       </section>
       <div className="pb-1 bg-gradient-to-r from-orange-950 to-orange-700  border-r-black"></div>
