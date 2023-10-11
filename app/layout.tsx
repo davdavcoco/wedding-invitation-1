@@ -29,23 +29,3 @@ export default function RootLayout({
     </html>
   );
 }
-
-// function RootLayout({ Component, PageProps }) {
-//   return (
-//     <>
-//       <html lang="en">
-//         {/*
-//         <head /> will contain the components returned by the nearest parent
-//         head.jsx. Find out more at https://beta.nextjs.org/docs/api-reference/file-conventions/head
-//       */}
-//         <head />
-//         <body>
-//           <Nav />
-//           <Component {...PageProps} />
-//           <Footer />
-//         </body>
-//       </html>
-//     </>
-//   );
-// }
-// export default RootLayout;
