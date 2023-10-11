@@ -1,5 +1,4 @@
-"use client";
-import "../app/globals.css";
+import "./globals.css";
 import type { Metadata } from "next";
 import Nav from "./Nav";
 import Footer from "./footer";
