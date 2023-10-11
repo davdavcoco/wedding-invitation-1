@@ -15,12 +15,12 @@ import {
   CardTitle,
 } from "@/components/ui/card";
 import gsap from "gsap";
-import toekoe from "../public/assets/projects/toekoe/mockup_stock_apps.jpg";
-import creabiz from "../public/assets/projects/creabiz/mockup_stock_apps.jpg";
-import gerbang_naga from "../public/assets/projects/gerbang_naga/mockup_stock_apps.jpg";
-import tais_timor from "../public/assets/projects/tais_timor/mockup_stock_apps.jpg";
-import grand_batang_city from "../public/assets/projects/grand_batang_city/mockup_stock_apps.jpg";
-import hooray from "../public/assets/projects/hooray/mockup_stock_apps.jpg";
+import toekoe from "../public/assets/projects/toekoe/mockup_stock_apps_web.jpg";
+import creabiz from "../public/assets/projects/creabiz/mockup_stock_apps_web.jpg";
+import gerbang_naga from "../public/assets/projects/gerbang_naga/mockup_stock_apps_web.jpg";
+import tais_timor from "../public/assets/projects/tais_timor/mockup_stock_apps_web.jpg";
+import grand_batang_city from "../public/assets/projects/grand_batang_city/mockup_stock_apps_web.jpg";
+import hooray from "../public/assets/projects/hooray/mockup_stock_apps_web.jpg";
 
 import InfiniteImageCarousel from "./infiniteimagecarousel";
 
