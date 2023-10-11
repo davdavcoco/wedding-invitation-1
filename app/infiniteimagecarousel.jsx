@@ -1,4 +1,4 @@
-// "use client";
+"use client";
 import React, { useState, useClient, useEffect, Component } from 'react';
 import ReactDOM from 'react-dom';
 import Image from "next/image";
