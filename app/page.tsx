@@ -47,8 +47,8 @@ export default function Home() {
           {/* <div className="md:col-span-6"></div> */}
           <div className="md:col-start-7 xl:col-start-7 xl:col-span-3 md:col-span-3 col-span-12">
             <h5 className="text-xl font-medium md:text-xl DMSans-VariableFont">
-              Fanrong a brand and design office for driving change through
-              problem solving
+              Fanrong is a brand and design office for driving change through
+              creative problem solving
             </h5>
           </div>
           <div className="md:col-start-10 xl:col-start-10 xl:col-span-3 md:col-span-3 col-span-12">
