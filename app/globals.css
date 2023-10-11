@@ -151,7 +151,7 @@ body {
     flex-direction: row !important;
     flex-wrap: nowrap !important;
     /* align-items: stretch !important; */
-    align-items: center !imporant;
+    align-items: center !important;
   }
 
 }

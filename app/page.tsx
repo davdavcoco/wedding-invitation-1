@@ -15,36 +15,16 @@ import {
   CardTitle,
 } from "@/components/ui/card";
 import gsap from "gsap";
-// import { useEffect, useRef } from "react";
-import whastappbuttongreensmall from "../public/assets/icons/ChatOnWhatsAppButton/WhatsAppButtonGreenSmall.png";
-import toekoe from "../public/assets/projects/toekoe/mockup_stock_apps.jpg";
-import creabiz from "../public/assets/projects/creabiz/mockup_stock_apps.jpg";
-import gerbang_naga from "../public/assets/projects/gerbang_naga/mockup_stock_apps.jpg";
-import tais_timor from "../public/assets/projects/tais_timor/mockup_stock_apps.jpg";
-import grand_batang_city from "../public/assets/projects/grand_batang_city/mockup_stock_apps.jpg";
-import hooray from "../public/assets/projects/hooray/mockup_stock_apps.jpg";
-
-import creabiz2 from "../public/assets/clients/Creabiz.png";
-import gbc from "../public/assets/clients/GBC.png";
-import hafas from "../public/assets/clients/HaFas.png";
-import huang from "../public/assets/clients/Huang.png";
-import ibcsd from "../public/assets/clients/IBCSD.png";
-import ikan_dorang from "../public/assets/clients/Ikan_Dorang.png";
+import toekoe from "../public/assets/projects/toekoe/mockup_stock_apps_web.jpg";
+import creabiz from "../public/assets/projects/creabiz/mockup_stock_apps_web.jpg";
+import gerbang_naga from "../public/assets/projects/gerbang_naga/mockup_stock_apps_web.jpg";
+import tais_timor from "../public/assets/projects/tais_timor/mockup_stock_apps_web.jpg";
+import grand_batang_city from "../public/assets/projects/grand_batang_city/mockup_stock_apps_web.jpg";
+import hooray from "../public/assets/projects/hooray/mockup_stock_apps_web.jpg";
 
 import InfiniteImageCarousel from "./infiniteimagecarousel";
 
 export default function Home() {
-  const services = [
-    {
-      trigger: `Strategy`,
-      content: `Meaningful impact begins with refining ideas.`,
-    },
-    {
-      trigger: `Verbal Identity`,
-      content: `Your words reflect your character`,
-    },
-  ];
-
   return (
     <main className=" bg-black text-white">
       {/* section 6 main projects */}
@@ -67,8 +47,8 @@ export default function Home() {
           {/* <div className="md:col-span-6"></div> */}
           <div className="md:col-start-7 xl:col-start-7 xl:col-span-3 md:col-span-3 col-span-12">
             <h5 className="text-xl font-medium md:text-xl DMSans-VariableFont">
-              Fanrong a brand and design office for driving change through
-              problem solving
+              Fanrong is a brand and design office for driving change through
+              creative problem solving
             </h5>
           </div>
           <div className="md:col-start-10 xl:col-start-10 xl:col-span-3 md:col-span-3 col-span-12">
@@ -298,9 +278,9 @@ export default function Home() {
           <div className="col-span-12 xl:flex xl:justify-between md:flex md:justify-between sm:text-center">
             <div className="col-span-10">
               <h3 className="text-4xl font-medium ">
-                <p className="xl:inline-block align-middle text-center lg:text-left md:text-left sm:pb-8">
+                <div className="xl:inline-block align-middle text-center lg:text-left md:text-left sm:pb-8">
                   We&rsquo;re here to collaborate, schedule a meeting now
-                </p>
+                </div>
               </h3>
             </div>
             <div className="col-span-2 text-center">

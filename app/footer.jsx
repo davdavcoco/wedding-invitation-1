@@ -17,9 +17,9 @@ export default async function Footer() {
                     </div>
                 </div>
                 <div className="md:col-start-10 col-span-3 md:col-span-3 hidden xl:block md:block">
-                    <p className="text-sm text-medium text-white">
+                    <div className="text-sm text-medium text-white">
                         &copy; Fanrong Creative Service
-                    </p>
+                    </div>
                 </div>
             </footer>
         </section>
