@@ -22,6 +22,6 @@
       "@/*": ["./*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "app/infiniteimagecarousel.jsx", "pages/contact.js"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "app/infiniteimagecarousel.jsx", "pages/contact.js", "app/*"],
   "exclude": ["node_modules"]
 }

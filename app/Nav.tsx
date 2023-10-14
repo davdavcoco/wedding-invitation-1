@@ -9,7 +9,7 @@ export default function Nav() {
 
   return (
     <div className="top-0 sticky">
-      <nav className="DMSans-VariableFont sticky bg-black text-white p-8 md:px-24 xl:px-16">
+      <nav className="font-DMSans_Thin sticky bg-black text-white p-8 md:px-24 xl:px-16">
         <section className="DESKTOP-MENU hidden lg:flex lg:justify-between lg:items-center md:flex md:justify-between md:items-center">
           <Link href={"/"}>
             <div className="inline-flex justify-center">
@@ -21,7 +21,7 @@ export default function Nav() {
               />
             </div>
           </Link>
-          <ul className="flex justify-between items-center gap-8">
+          <ul className="flex justify-between font-thin items-center gap-8">
             <Link href={"/about"}>
               <li>About</li>
             </Link>

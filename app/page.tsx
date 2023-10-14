@@ -28,31 +28,31 @@ export default function Home() {
   return (
     <main className=" bg-black text-white">
       {/* section 6 main projects */}
-      <section className="DMSans-VariableFont px-8 md:px-24 xl:px-16">
+      <section className="font-DMSans_Thin px-8 md:px-24 xl:px-16">
         <div className=" py-10 bg-black block xl:inline-block md:inline-block">
-          <h1 className="xl:text-7xl py-2 font-medium md:text-7xl sm:text-4xl text-5xl hidden md:block xl:block">
+          <h1 className="xl:text-7xl py-2 font-thin md:text-7xl sm:text-4xl text-5xl hidden md:block xl:block font-DMSans_Thin">
             Where iconic brand
           </h1>
-          <h1 className="xl:text-7xl py-2 font-medium md:text-7xl sm:text-4xl text-5xl hidden md:block xl:block">
+          <h1 className="xl:text-7xl py-2 font-thin md:text-7xl sm:text-4xl text-5xl hidden md:block xl:block">
             designed authenticly.
           </h1>
-          <h1 className="xl:text-7xl py-2 font-medium md:text-7xl text-3xl xl:hidden md:hidden sm:block">
+          <h1 className="xl:text-7xl py-2 font-thin md:text-7xl text-3xl xl:hidden md:hidden sm:block">
             Where iconic brand designed authenticly.
           </h1>
         </div>
       </section>
       <div className="pb-3 bg-gradient-to-r from-orange-950 to-orange-700  border-r-black"></div>
-      <section className="DMSans-VariableFont px-8 md:px-24 xl:px-16">
+      <section className="font-DMSans_Thin px-8 md:px-24 xl:px-16">
         <div className="grid grid-cols-12 gap-8  py-10">
           {/* <div className="md:col-span-6"></div> */}
           <div className="md:col-start-7 xl:col-start-7 xl:col-span-3 md:col-span-3 col-span-12">
-            <h5 className="text-xl font-medium md:text-xl DMSans-VariableFont">
+            <h5 className="text-xl font-thin md:text-xl font-DMSans_Thin">
               Fanrong is a brand and design office for driving change through
               creative problem solving
             </h5>
           </div>
           <div className="md:col-start-10 xl:col-start-10 xl:col-span-3 md:col-span-3 col-span-12">
-            <h5 className="text-xl font-medium md:text-xl DMSans-VariableFont">
+            <h5 className="text-xl font-thin md:text-xl font-DMSans_Thin">
               We help business convey their narativeness with clarity,
               enchancing with their visual appeal, and captivating their
               audience
@@ -61,10 +61,10 @@ export default function Home() {
         </div>
       </section>
       <div className="pb-1 bg-gradient-to-r from-orange-950 to-orange-700  border-r-black"></div>
-      <section className="DMSans-VariableFont px-8 md:px-24 xl:px-16">
+      <section className="font-DMSans_Thin px-8 md:px-24 xl:px-16">
         <div className="grid grid-cols-12 gap-8  py-10">
           <div className="col-span-12">
-            <h3 className="text-2xl font-medium">Our Client</h3>
+            <h3 className="text-2xl font-thin">Our Client</h3>
           </div>
           <div className="col-span-12">
             <InfiniteImageCarousel />
@@ -73,10 +73,10 @@ export default function Home() {
       </section>
       <div className="pb-1 bg-gradient-to-r from-orange-950 to-orange-700  border-r-black"></div>
       {/* <section className="grid grid-cols-12 gap-8 py-0 lg:py-10 md:py-10"></section> */}
-      <section className="DMSans-VariableFont py-10 px-8 md:px-24 xl:px-16">
+      <section className="font-DMSans_Thin py-10 px-8 md:px-24 xl:px-16">
         <div className="grid grid-cols-12 xl:gap-4 md:gap-4 md:px-0 xl:px-0 pb-0 lg:pb-20 md:pb-20">
           <div className="col-span-12">
-            <h3 className="text-2xl font-medium">Featured Projects</h3>
+            <h3 className="text-2xl font-thin">Featured Projects</h3>
           </div>
 
           <div className="col-span-12 xl:col-span-4 md:col-span-4 pb-8 lg:pb-0 md:pb-0">
@@ -86,8 +86,8 @@ export default function Home() {
               alt="toekoe portfolio"
             />
             <div className="flex justify-between">
-              <h3 className="text-xl font-medium">Toekoe</h3>
-              <a className="text-xl font-medium" href="/">
+              <h3 className="text-xl font-thin">Toekoe</h3>
+              <a className="text-xl font-thin" href="/">
                 +
               </a>
             </div>
@@ -99,8 +99,8 @@ export default function Home() {
               alt="creabiz portfolio"
             />
             <div className="flex justify-between">
-              <h3 className="text-xl font-medium">Creabiz</h3>
-              <a className="text-xl font-medium" href="/">
+              <h3 className="text-xl font-thin">Creabiz</h3>
+              <a className="text-xl font-thin" href="/">
                 +
               </a>
             </div>
@@ -112,8 +112,8 @@ export default function Home() {
               alt="gerbang naga portfolio"
             />
             <div className="flex justify-between">
-              <h3 className="text-xl font-medium">Gerbang Naga</h3>
-              <a className="text-xl font-medium" href="/">
+              <h3 className="text-xl font-thin">Gerbang Naga</h3>
+              <a className="text-xl font-thin" href="/">
                 +
               </a>
             </div>
@@ -127,8 +127,8 @@ export default function Home() {
               alt="tais timor portfolio"
             />
             <div className="flex justify-between">
-              <h3 className="text-xl font-medium">Tais Timor</h3>
-              <a className="text-xl font-medium" href="/">
+              <h3 className="text-xl font-thin">Tais Timor</h3>
+              <a className="text-xl font-thin" href="/">
                 +
               </a>
             </div>
@@ -140,8 +140,8 @@ export default function Home() {
               alt="grand batang city portfolio"
             />
             <div className="flex justify-between">
-              <h3 className="text-xl font-medium">Grand Batang City</h3>
-              <a className="text-xl font-medium" href="/">
+              <h3 className="text-xl font-thin">Grand Batang City</h3>
+              <a className="text-xl font-thin" href="/">
                 +
               </a>
             </div>
@@ -153,8 +153,8 @@ export default function Home() {
               alt="hooray portfolio"
             />
             <div className="flex justify-between">
-              <h3 className="text-xl font-medium">Hooray</h3>
-              <a className="text-xl font-medium" href="/">
+              <h3 className="text-xl font-thin">Hooray</h3>
+              <a className="text-xl font-thin" href="/">
                 +
               </a>
             </div>
@@ -162,10 +162,10 @@ export default function Home() {
         </div>
       </section>
       <div className="pb-1 bg-gradient-to-r from-orange-950 to-orange-700  border-r-black"></div>
-      <section className="DMSans-VariableFont px-8 md:px-24 xl:px-16">
+      <section className="font-DMSans_Thin px-8 md:px-24 xl:px-16">
         <div className="grid grid-cols-12 gap-0 xl:gap-8 md:gap-8 py-10">
           <div className="col-span-12">
-            <h3 className="text-2xl font-medium">Our Expertise</h3>
+            <h3 className="text-2xl font-thin">Our Expertise</h3>
           </div>
           {/* <div className="col-span-1"></div> */}
           <div className="col-start-1 col-end-13 xl:col-end-12 md:col-end-13 sm:col-end-11 sm:col-start-1 md:col-start-1 xl:col-start-2">
@@ -273,11 +273,11 @@ export default function Home() {
         </div>
       </section>
       <div className="pb-1 bg-gradient-to-r from-orange-950 to-orange-700  border-r-black"></div>
-      <section className="DMSans-VariableFont px-8 md:px-24 xl:px-16">
+      <section className="font-DMSans_Thin px-8 md:px-24 xl:px-16">
         <div className="grid grid-cols-12 xl:gap-8  py-10">
           <div className="col-span-12 xl:flex xl:justify-between md:flex md:justify-between sm:text-center">
             <div className="col-span-10">
-              <h3 className="text-4xl font-medium ">
+              <h3 className="text-4xl font-thin ">
                 <div className="xl:inline-block align-middle text-center lg:text-left md:text-left sm:pb-8">
                   We&rsquo;re here to collaborate, schedule a meeting now
                 </div>
