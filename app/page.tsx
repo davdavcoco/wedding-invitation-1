@@ -80,14 +80,19 @@ export default function Home() {
           </div>
 
           <div className="col-span-12 xl:col-span-4 md:col-span-4 pb-8 lg:pb-0 md:pb-0">
-            <Image
-              src={toekoe}
-              className="rounded-sm object-cover h-full w-full"
-              alt="toekoe portfolio"
-            />
+            <a href="/toekoe/">
+              <Image
+                src={toekoe}
+                className="rounded-sm object-cover h-full w-full"
+                alt="toekoe portfolio"
+              />
+            </a>
+
             <div className="flex justify-between">
-              <h3 className="text-xl font-thin">Toekoe</h3>
-              <a className="text-xl font-thin" href="/">
+              <h3 className="text-xl font-thin">
+                <a href="/toekoe/">Toekoe</a>
+              </h3>
+              <a className="text-xl font-thin" href="/toekoe/">
                 +
               </a>
             </div>
