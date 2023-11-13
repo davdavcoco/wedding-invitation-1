@@ -1,22 +1,6 @@
 // "use client";
 import type { Metadata, ResolvingMetadata } from "next";
 import Image from "next/image";
-import {
-  Accordion,
-  AccordionContent,
-  AccordionItem,
-  AccordionTrigger,
-} from "@/components/ui/accordion";
-import {
-  Card,
-  CardContent,
-  CardDescription,
-  CardFooter,
-  CardHeader,
-  CardTitle,
-} from "@/components/ui/card";
-import gsap from "gsap";
-import toekoe from "../../public/assets/projects/toekoe/mockup_stock_apps_web.jpg";
 
 var imageUrls: string[] = [];
 
@@ -29,7 +13,7 @@ for (let i = 1; i < 48; i++) {
 export async function generateMetadata(): Promise<Metadata> {
   return {
     title: "",
-    description: `About Fanrong's Studio | Discover a world of innovative design solutions, artistic craftsmanship, and cutting-edge creativity. Our design product studio showcases a diverse range of projects that inspire and captivate. Explore our portfolio today.`,
+    description: `Toekoe Project Fanrong's Studio | Discover a world of innovative design solutions, artistic craftsmanship, and cutting-edge creativity. Our design product studio showcases a diverse range of projects that inspire and captivate. Explore our portfolio today.`,
     keywords: `design, product, studio, portfolio, creativity, innovation, toekoe`,
   };
 }
@@ -41,7 +25,7 @@ export default function Page() {
       <section className="DMSans-VariableFont py-10 px-8 md:px-36 xl:px-24">
         <div className="">
           {imageUrls.map((imageClient, index, key) => (
-            <div key={index} className="bg-white">
+            <div key={index} className="bg-white mt-2">
               <Image
                 src={imageClient}
                 loading="lazy"

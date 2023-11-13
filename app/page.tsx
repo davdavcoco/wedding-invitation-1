@@ -98,27 +98,36 @@ export default function Home() {
             </div>
           </div>
           <div className="col-span-12 xl:col-span-4 md:col-span-4 pb-8 lg:pb-0 md:pb-0">
-            <Image
-              src={creabiz}
-              className="rounded-sm object-cover h-full w-full"
-              alt="creabiz portfolio"
-            />
+            <a href="/creabiz/">
+              <Image
+                src={creabiz}
+                className="rounded-sm object-cover h-full w-full"
+                alt="creabiz portfolio"
+              />
+            </a>
+
             <div className="flex justify-between">
-              <h3 className="text-xl font-thin">Creabiz</h3>
-              <a className="text-xl font-thin" href="/">
+              <h3 className="text-xl font-thin">
+                <a href="/creabiz/">Creabiz</a>
+              </h3>
+              <a className="text-xl font-thin" href="/creabiz/">
                 +
               </a>
             </div>
           </div>
           <div className="col-span-12 xl:col-span-4 md:col-span-4 pb-8 lg:pb-0 md:pb-0">
-            <Image
-              src={gerbang_naga}
-              className="rounded-sm object-cover h-full w-full"
-              alt="gerbang naga portfolio"
-            />
+            <a href="/gerbang-naga/">
+              <Image
+                src={gerbang_naga}
+                className="rounded-sm object-cover h-full w-full "
+                alt="gerbang naga portfolio"
+              />
+            </a>
             <div className="flex justify-between">
-              <h3 className="text-xl font-thin">Gerbang Naga</h3>
-              <a className="text-xl font-thin" href="/">
+              <h3 className="text-xl font-thin">
+                <a href="/creabiz/">Gerbang Naga</a>
+              </h3>
+              <a className="text-xl font-thin" href="/gerbang-naga">
                 +
               </a>
             </div>
