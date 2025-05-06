@@ -1,2 +1,4 @@
-User-agent: *
+User-Agent: *
 Allow: /
+Disallow: /private/
+Sitemap: https://fanrong-studio-portfolio.vercel.app/sitemap.xml
