@@ -27,7 +27,7 @@ export default function Home() {
             </section>
             <div className="pb-3 bg-gradient-to-r from-orange-950 to-orange-700  border-r-black"></div>
             <section className="font-DMSans_Thin px-8 md:px-24 xl:px-16">
-                <div className="grid grid-cols-12 gap-8  py-10">
+                <div className="grid grid-cols-12 xl:gap-8 md:gap-8 sm:gap-4 py-10">
                     {/* <div className="md:col-span-6"></div> */}
                     <div className="md:col-start-7 xl:col-start-7 xl:col-span-3 md:col-span-3 col-span-12">
                         <h5 className="text-xl font-thin md:text-xl font-DMSans_Thin">
