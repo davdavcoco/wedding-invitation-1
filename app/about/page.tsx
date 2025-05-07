@@ -1,20 +1,8 @@
 // "use client";
 import type { Metadata, ResolvingMetadata } from "next";
 import Image from "next/image";
-import {
-  Accordion,
-  AccordionContent,
-  AccordionItem,
-  AccordionTrigger,
-} from "@/components/ui/accordion";
-import {
-  Card,
-  CardContent,
-  CardDescription,
-  CardFooter,
-  CardHeader,
-  CardTitle,
-} from "@/components/ui/card";
+import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
+import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
 import gsap from "gsap";
 import toekoe from "../../public/assets/projects/toekoe/mockup_stock_apps_web.jpg";
 import creabiz from "../../public/assets/projects/creabiz/mockup_stock_apps_web.jpg";
@@ -26,14 +14,14 @@ import hooray from "../../public/assets/projects/hooray/mockup_stock_apps_web.jp
 import InfiniteImageCarousel from "../infiniteimagecarousel";
 
 export async function generateMetadata(): Promise<Metadata> {
-  return {
-    title: "About - Fanrong Studio",
-    description: `About Fanrong's Studio | Discover a world of innovative design solutions, artistic craftsmanship, and cutting-edge creativity. Our design product studio showcases a diverse range of projects that inspire and captivate. Explore our portfolio today.`,
-    keywords: `design, product, studio, portfolio, creativity, innovation`,
-  };
+    return {
+        title: "About - Fanrong Studio",
+        description: `About Fanrong's Studio | Discover a world of innovative design solutions, artistic craftsmanship, and cutting-edge creativity. Our design product studio showcases a diverse range of projects that inspire and captivate. Explore our portfolio today.`,
+        keywords: `design, product, studio, portfolio, creativity, innovation, fanrong`,
+    };
 }
 
 // `app/page.tsx` is the UI for the `/` URL
 export default function Page() {
-  return <main className=" bg-black text-white">Soon</main>;
+    return <main className=" bg-black text-white">Soon</main>;
 }

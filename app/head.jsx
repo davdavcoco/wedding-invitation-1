@@ -25,7 +25,7 @@ export default function Head() {
             {/* <meta content="width=device-width, initial-scale=1" name="viewport" /> */}
             <meta name="viewport" content="width=1920"></meta>
             <meta name="description" content="Explore Fanrong's Studio | Discover a world of innovative design solutions, artistic craftsmanship, and cutting-edge creativity. Our design product studio showcases a diverse range of projects that inspire and captivate. Explore our portfolio today." />
-            <meta name="keywords" content="design, product, studio, portfolio, creativity, innovation" />
+            <meta name="keywords" content="design, product, studio, portfolio, creativity, innovation, fanrong" />
             <meta name="author" content="Fanrong Studios" />
 
             <link rel="icon" href="/favicon.ico" />
