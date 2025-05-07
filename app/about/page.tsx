@@ -16,8 +16,8 @@ import InfiniteImageCarousel from "../infiniteimagecarousel";
 export async function generateMetadata(): Promise<Metadata> {
     return {
         title: "About - Fanrong Studio",
-        description: `About Fanrong's Studio | Discover a world of innovative design solutions, artistic craftsmanship, and cutting-edge creativity. Our design product studio showcases a diverse range of projects that inspire and captivate. Explore our portfolio today.`,
-        keywords: `design, product, studio, portfolio, creativity, innovation, fanrong`,
+        description: `Learn more about Fanrong Studio's journey, our passionate team, and the core values that drive our innovative design solutions and artistic craftsmanship. Discover our story and what inspires our cutting-edge creativity.`,
+        keywords: `about us, our story, design philosophy, team, studio values, craftsmanship, innovation, Fanrong Studio`,
     };
 }
 

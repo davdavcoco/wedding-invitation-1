@@ -4,8 +4,8 @@ import type { Metadata, ResolvingMetadata } from "next";
 export async function generateMetadata(): Promise<Metadata> {
     return {
         title: "Services - Fanrong Studio",
-        description: `About Fanrong's Studio | Discover a world of innovative design solutions, artistic craftsmanship, and cutting-edge creativity. Our design product studio showcases a diverse range of projects that inspire and captivate. Explore our portfolio today.`,
-        keywords: `design, product, studio, portfolio, creativity, innovation, fanrong`,
+        description: `Explore the comprehensive range of design and creative services offered by Fanrong Studio. From branding to digital design, discover how we can help bring your vision to life.`,
+        keywords: `design services, branding, web design, graphic design, UI/UX, creative solutions, Fanrong Studio`,
     };
 }
 
