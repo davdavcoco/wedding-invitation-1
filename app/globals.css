@@ -33,6 +33,19 @@
     --ring: 222.2 84% 4.9%;
 
     --radius: 0.5rem;
+
+
+    --inv-bg: #d8dad7;
+    --inv-base: #5e4e41;
+    --inv-accent: #a7883b;
+    --inv-border: #dad2b9;
+    --menu-bg: #fffff9;
+    --menu-inactive: #5e4e41;
+    --menu-active: #a7883b;
+    --btn-color: #ffffff;
+    --font-base: "Marcellus", serif;
+    --font-accent: "Against", sans-serif;
+    --font-latin: "English111 Vivace BT", cursive;
   }
 
   .dark {
@@ -154,4 +167,48 @@ body {
     align-items: center !important;
   }
 
+}
+
+.themename {
+  background-color: var(--inv-bg);
+  font-family: var(--font-base);
+}
+
+.themename-cover {
+  background-image: url('../public/assets/images/bg-section.jpg');
+  background-size: cover !important;
+  position: fixed;
+  z-index: 4;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.workspace {
+  width: 500px;
+  max-width: 100%;
+}
+
+.cover {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  height: 100%;
+}
+
+.container-mobile {
+  background-color: var(--inv-bg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  overflow: hidden;
+  width: 100%;
+  max-width: 500px;
+  transition: all ease-in-out .5s;
+  margin-left: auto;
+  margin-right: auto;
 }
