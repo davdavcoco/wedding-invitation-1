@@ -27,8 +27,25 @@ export default function Home() {
                     <div className="workspace cover">
                         {/* Your main content goes here */}
                         {/* More sections of your content */}
-                        <div className="content h-100 w-100">
-                            <div className="pt-4 h-100 w-100 d-flex flex-column justify-content-center align-items-center"></div>
+                        <div className="content h-full w-full">
+                            <div className="pt-4 pb-20 h-full w-full flex flex-col justify-content-center align-items-center">
+                                <div className="mt-4 h-full w-full mb-auto text-center">
+                                    <div className="text-sm text-white ">The Wedding Of</div>
+                                    <div className="text-6xl text-white font-E111Viva">Samuel & Esther</div>
+                                </div>
+                                <div className="w-full mx-auto text-center">
+                                    <div className="mx-auto max-w-xs text-center mb-3 p-2 bg-white bg-opacity-60 backdrop-blur-sm rounded-lg ">
+                                        <div className="text-sm">
+                                            Kepada Yth.
+                                            <br />
+                                            Bapak/Ibu/Saudara/i
+                                            <br />
+                                        </div>
+                                        <div className="guestName-slot editable color-accent font-bold">Nama Tamu</div>
+                                        <div></div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                     {/* section 6 main projects */}

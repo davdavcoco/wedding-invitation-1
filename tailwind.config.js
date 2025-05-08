@@ -27,6 +27,8 @@ module.exports = {
         DMSans_Thin: 'DMSans-VariableFont_opsz',
         DMSerifDisplay_Italic: 'DMSerifDisplay-Italic',
         DMSerifDisplay_Regular: 'DMSerifDisplay-Regular',
+        Marcellus_Regular: 'Marcellus-Regular',
+        E111Viva: 'E111Viva',
       },
       colors: {
         border: "hsl(var(--border))",

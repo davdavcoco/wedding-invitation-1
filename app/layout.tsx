@@ -19,7 +19,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         head.jsx. Find out more at https://beta.nextjs.org/docs/api-reference/file-conventions/head
       */}
             <head />
-            <body className="">
+            <body className="themename">
                 <Nav />
                 {children}
                 <Analytics />
